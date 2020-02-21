@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Vinyl Store</title>
+    <link rel="stylesheet" href="./css/animate.css">
+    <link rel="stylesheet" href="./css/swiper.min.css">
+    <link rel="stylesheet" href="css/lightbox.min.css">
+    <style>
+        .swiper-container {
+            width: 100%;
+            height: 350px;
+            background:rgb(27, 27, 27);
+
+        }
+        .swiper-slide {
+            display: flex;
+            height: 400px;
+            justify-content: center;
+            align-items: center;
+            font: 88px Arial
+        }
+        
+        .swiper-pagination-bullet-active {
+            background: rgb(75, 67, 67);
+        }
+        body{background-color: black;}
+    </style>
+</head>
+<body>
+
+    <div class="alert alert-secondary" role="alert" style="position: relative;top: 20px;border-radius: 0px;text-align: center;"> 
+        <strong> VINYL STORE</strong> 
+    </div>
+    <section class="wow bounceInRight" data-wow-duration="2s" data-wow-delay="1s">
+       <div class="swiper-container" style="position: relative;top: 20px;">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="./images/alice-in-chains (1).jpg"> </div>
+                <div class="swiper-slide"><img src="./images/motorhead2.jpg"></div>
+                <div class="swiper-slide"><img src="./images/Metallica-752x497.jpg" > </div>
+                <div class="swiper-slide"><img src="./images/sabaton.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="./images/behemoth.jpg"></div>
+                <div class="swiper-slide"><img src="./images/dimm.jpg"> </div>
+                <div class="swiper-slide"><img src="./images/a6b639d-slipknot.webp"> </div>
+                
+            </div>
+        <div class="swiper-pagination"></div>    
+        </div>
+    </section>
+        
+        
+    
+       <div id="txtid" style="text-align: right;position:fixed;top: 15px;right: 100px;
+        ">
+        <a style="color: rgb(5, 5, 5);font-size: 38px;background-color:aliceblue;border: black;border-style:groove;" href="./loja.html">LOJA</a></div>
+    <script src="./js/swiper.min.js"></script>
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            pagination:{
+                el: '.swiper-pagination',
+                autoHeight: true
+            }
+        })
+    </script> <section class="wow flash" data-wow-duration="5s">
+    <p style="color: white;text-align: center;padding-top: 20px;">pré-visualização</p>
+</section>
+<div id="imgens" style="position: fixed; left: 40px;bottom: 5px;"> 
+<section class="wow bounceInLeft" data-wow-duration="2s" data-wow-delay="0,5s">
+    
+      <a href="images/Sabaton-TheLastStand.jpg" data-title="Legenda da foto" data-lightbox="photo1">
+      <img class="img" data-zoom-image="./images/Sabaton-TheLastStand.jpg" src="images/Sabaton-TheLastStand.jpg" width="150px" height="150px" alt="">
+      </a>
+      <a href="images/Sabaton-CoatofArms.jpg"  data-title="Legenda da foto"  data-lightbox="photo1">
+      <img class="img" data-zoom-image="./images/Sabaton-CoatofArms.jpg" src="images/Sabaton-CoatofArms.jpg" width="150px" height="150px" alt="">
+      </a>
+      <a href="images/DragonForce-MaximumOverload.jpg" data-title="Legenda da foto" data-lightbox="photo1">
+      <img class="img" data-zoom-image="./images/DragonForce-MaximumOverload.jpg" src="images/DragonForce-MaximumOverload.jpg" width="150px" height="150px" alt="">
+      </a>
+      <a href="images/DragonForce-ReachingIntoInfinity.jpg" data-title="Legenda da foto" data-lightbox="photo1">
+      <img class="img" data-zoom-image="./images/DragonForce-ReachingIntoInfinity.jpg" src="images/DragonForce-ReachingIntoInfinity.jpg" width="150px" height="150px" alt="">
+      </a>
+      <a href="images/Destroyer666-Wildfire.png" data-title="Legenda da foto" data-lightbox="photo1">
+      <img class="img" data-zoom-image="./images/Destroyer666-Wildfire.png" src="images/Destroyer666-Wildfire.png" width="150px" height="150px" alt="">
+      </a>
+      <a href="images/Powerwolf-TheSacramentOfSin.jpg" data-title="Legenda da foto" data-lightbox="photo1">
+      <img class="img" data-zoom-image="./images/Powerwolf-TheSacramentOfSin.jpg" src="images/Powerwolf-TheSacramentOfSin.jpg" width="150px" height="150px" alt="">
+      </a>
+      <a href="images/DragonForce-ValleyoftheDammned.jpg"data-title="Legenda da foto"data-lightbox="photo1">
+      <img class="img" data-zoom-image="./images/DragonForce-ValleyoftheDammned.jpg" src="images/DragonForce-ValleyoftheDammned.jpg" width="150px" height="150px" alt="">
+      </a>
+      <a href="images/61bI-dnx3sL._SL1206_.jpg"data-title="Legenda da foto"data-lightbox="photo1">
+      <img class="img" data-zoom-image="./images/61bI-dnx3sL._SL1206_.jpg" src="images/61bI-dnx3sL._SL1206_.jpg" width="150px" height="150px" alt="">
+      </a>
+    </div>
+</section>
+  
+      <script src="js/lightbox-plus-jquery.min.js"></script> 
+      <script src="js/lightbox.min.js"></script> 
+      <script src="./js/wow.min.js"></script>
+      <script>
+          new WOW().init()
+      </script>
+
+<script src="./js/jquery-1.8.3.min.js"></script>
+<script src="./js/jquery.elevatezoom.js"></script>
+<script>
+    $('.img').elevateZoom({
+    zoomType: "inner",
+    cursor: "crosshair",
+    zoomWindowFadeIn: 500,
+    zoomWindowFadeOut: 750
+}); 
+</script>
+</body>
+</html>
